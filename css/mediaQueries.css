@@ -1,0 +1,26 @@
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 900px) {
+    .blog-cards {
+        grid-template-columns: repeat(2, 1fr);
+        background:red
+    }
+}
+
+/* Large Screens */
+@media (min-width:901px) {
+   .blog-cards {
+        grid-template-columns: repeat(3, 1fr);
+        background: green
+    }
+    
+    .blog-body {
+        background: lemonchiffon;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 4fr 1fr;
+        grid-template-areas:
+        "hd hd hd hd"
+        "main main main sd"
+        "ft ft ft ft";
+    }
+  }
+  
