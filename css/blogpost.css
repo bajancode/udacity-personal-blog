@@ -1,18 +1,18 @@
 .blog-body {
     display: grid;
-    /* grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 0.25fr 1fr 0.75fr 0.25fr;
     grid-template-areas:
     "hd"
     "main"
     "sd"
-    "ft"; */
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    "ft";
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
        grid-template-rows: 1fr 4fr 1fr;
         grid-template-areas:
         "hd hd hd hd"
         "main main main sd"
-        "ft ft ft ft";
+        "ft ft ft ft"; */
 }
 
 h1 {
@@ -27,8 +27,7 @@ time {
 }
 
 .post-main-photo {
-    display: block;
-    border: 4px red solid
+   width: 100%
 }
 
 article {
