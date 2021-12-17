@@ -1,4 +1,4 @@
-.blog-body {
+/* .blog-body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.25fr 1fr 0.75fr 0.25fr;
@@ -13,6 +13,17 @@
         "hd hd hd hd"
         "main main main sd"
         "ft ft ft ft"; */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 1fr 0.75fr 0.25fr;
+    grid-template-areas:
+    "hd"
+    "main"
+    "sd"
+    "ft";
 }
 
 h1 {
