@@ -2,7 +2,7 @@
 @media (min-width: 600px) and (max-width: 900px) {
     .blog-cards {
         grid-template-columns: repeat(2, 1fr);
-        background:red
+        background: violet;
     }
 }
 
@@ -15,17 +15,15 @@
     
     .grid-container {
         background: lemonchiffon;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: 1fr 6fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 0.5fr 2fr 1fr;
         grid-template-areas:
-        "hd hd hd hd hd hd hd hd"
-        "main main main main main main sd sd"
-        "main main main main main main sd sd"
-        "main main main main main main sd sd"
-        "main main main main main main sd sd"
-        "main main main main main main sd sd"
-        "main main main main main main sd sd"
-        "ft ft ft ft ft ft ft ft";
+        "hd hd hd hd"
+        "main main main sd"
+        "main main main sd"
+        "main main main sd"
+        "main main main sd"
+        "ft ft ft ft";
     }
   }
   
