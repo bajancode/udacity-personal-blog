@@ -17,14 +17,16 @@ p {
     font-size: 1.25rem;
 }
 
-/* Note: I'm having a hard time getting this nav bar to the right and not overflowing into the next area, while keeping the same general sizes for the page. Any ideas? */
-
 nav {
     position: absolute;
-    /* float: right; */
-    /* display: inline-block; */
-    right: 0px;
+    right: 0px; 
+    display: flex;
+    margin: -20px 10px;
 } 
+
+ul {
+    list-style-type: none;
+}
 
 button {
     padding: 0.1em;
